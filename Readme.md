@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Илья Зарубаев](https://up.htmlacademy.ru/htmlcss/28/user/1307571).
-* Наставник: [Андрей Колесников](https://up.htmlacademy.ru/htmlcss/28/user/477095).
+* Наставник: [Колесников Андрей](https://up.htmlacademy.ru/htmlcss/28/user/477095).
 
 ---
 
