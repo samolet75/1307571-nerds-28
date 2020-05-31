@@ -38,7 +38,7 @@
     color: var(--basic-white);
     background-color: inherit;
   }
-  .site-navigation,.our-service,.templates {
+  .site-navigation,.our-service,.templates,.accuracy {
     list-style: none;
   }
   
