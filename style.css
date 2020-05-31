@@ -29,15 +29,16 @@
     height: auto;
       }
   
-  h1,h2,.feedback {
+  h1,h2,h3,.feedback {
     display: none;
-  }
+      }
   .main-navigation {
-    font-size: 16;
-    line-height: 30;
+    font-size: 16px;
+    line-height: 30px;
     color: var(--basic-white);
     background-color: inherit;
   }
-  .site-navigation {
+  .site-navigation,.our-service {
     list-style: none;
   }
+  
