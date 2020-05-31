@@ -19,12 +19,25 @@
     font-weight: normal;
     color: var(--basic-black);
     text-transform: none;
-    background-color: var(--basic-white);
-    background-image: url("../img/bg.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
+    background-color: var(--basic-white);  
   }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+      }
   
   h1,h2,.feedback {
     display: none;
+  }
+  .main-navigation {
+    font-size: 16;
+    line-height: 30;
+    color: var(--basic-white);
+    background-color: inherit;
+  }
+  .site-navigation {
+    list-style: none;
   }
