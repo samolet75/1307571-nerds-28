@@ -17,8 +17,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
-  color: var(--basic-black);
-  text-transform: none;
+  color: var(--basic-black);  
   background-color: var(--basic-white);  
 }
 a {
@@ -40,10 +39,10 @@ img {
     } 
 
 .main-navigation {
-  font-size: 16px;
+  
   line-height: 30px;
   color: var(--basic-white);
-  background-color: inherit;
+  
 }
 .site-navigation, .our-service, .templates {
   list-style: none;
