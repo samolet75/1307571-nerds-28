@@ -49,6 +49,7 @@ img {
 .site-navigation a:focus 
  {
   color: var(--basic-dark-red);
+  border-bottom: 1px solid red;
 }
 
 .site-navigation, .templates {
