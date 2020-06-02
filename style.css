@@ -8,6 +8,7 @@
   --basic-dark-grey: #666666;
   --basic-shade-black: #EEEEEE;
   --basic-dark-green: #00CA74;
+  --basic-dark-red: #ff0000;
 }
 body {
   min-width: 1177px;
@@ -17,9 +18,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
+  font-style: normal;
   color: var(--basic-black);  
   background-color: var(--basic-white);  
-}
+ }
 a {
   text-decoration: none;
 }
@@ -38,12 +40,43 @@ img {
       overflow: hidden;
     } 
 
-.main-navigation {
-  
+.main-navigation {  
   line-height: 30px;
-  color: var(--basic-white);
-  
+  }
+
+.basket a:hover, .basket a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus 
+ {
+  color: var(--basic-dark-red);
 }
-.site-navigation, .our-service, .templates {
+
+.site-navigation, .templates {
   list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--basic-black);
+}
+.our-service {
+  list-style: none;
+  }
+  .product-name {
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+font-weight: 500;
+  }
+  .order {
+font-weight: 500;
+line-height: 18px;
+color: var(--basic-white);
+}
+.be-friends {
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+}
+.discount { 
+line-height: 22px;  
 }
