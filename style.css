@@ -92,6 +92,23 @@ font-size: 18px;
 line-height: 30px;
 }
 .grid {
-font-size: 16px;
 line-height: 19px;
 }
+.show{
+font-weight: 500;
+line-height: 18px;
+}
+.project {
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+}
+.description{
+line-height: 18px;
+}
+.cost {
+font-weight: 500;
+line-height: 18px;
+color: var(--basic-white);
+}
+
