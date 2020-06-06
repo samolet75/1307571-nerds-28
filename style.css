@@ -4,111 +4,107 @@
   --basic-rose-red: #FB565A;
   --basic-green-blue: #00CA74;
   --basic-light-yellow: #EFC849;
-  --basic-white: #ffffff;
+  --basic-white: #FFFFFF;
   --basic-dark-grey: #666666;
   --basic-shade-black: #EEEEEE;
   --basic-dark-green: #00CA74;
-  --basic-dark-red: #ff0000;
-}
-body {
+  --basic-gray:#888888;
+    }
+  body {
   min-width: 1177px;
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
   font-style: normal;
   color: var(--basic-black);  
-  background-color: var(--basic-white);  
- }
-a {
+  background-color: var(--basic-gray);  
+  }
+  a {
   text-decoration: none;
-}
-img {
+  }
+  img {
   max-width: 100%;
   height: auto;
-    }    
-    .visually-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      clip: rect(0 0 0 0);
-      overflow: hidden;
-    } 
-
-.main-navigation {  
+  }    
+  .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  } 
+  .main-navigation {  
   line-height: 30px;
   }
-
-.basket a:hover, .basket a:focus,
-.site-navigation a:hover,
-.site-navigation a:focus 
- {
+  .basket:hover, .basket:focus,
+  .site-navigation a:hover,
+  .site-navigation a:focus 
+  {
   color: var(--basic-dark-red);
-  border-bottom: 1px solid red;
-}
-
-.site-navigation, .templates {
+  border-bottom: 1px solid #FB565A;
+  }
+  .site-navigation, .templates {
   list-style: none;
   font-size: 16px;
   line-height: 20px;
   color: var(--basic-black);
-}
-.our-service {
+  }
+  .our-service {
   list-style: none;
   }
   .product-name {
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
-text-transform: uppercase;
-font-weight: 500;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
   }
   .order {
-font-weight: 500;
-line-height: 18px;
-color: var(--basic-white);
-}
-.be-friends {
-font-weight: bold;
-font-size: 36px;
-line-height: 36px;
-}
-.discount { 
-line-height: 22px;  
-}
-.ready {
-font-weight: 500;
-font-size: 55px;
-line-height: 55px;
-}
-.filters {
-font-weight: bold;
-font-size: 18px;
-line-height: 30px;
-}
-.grid {
-line-height: 19px;
-}
-.show{
-font-weight: 500;
-line-height: 18px;
-}
-.project {
-font-weight: bold;
-font-size: 18px;
-line-height: 30px;
-}
-.description{
-line-height: 18px;
-}
-.cost {
-font-weight: 500;
-line-height: 18px;
-color: var(--basic-white);
-}
-
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--basic-white);
+  }
+  .be-friends {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  }
+  .discount { 
+  line-height: 22px;  
+  }
+  .ready {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  }
+  .filters {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  }
+  .grid {
+  line-height: 19px;
+  }
+  .show{
+  font-weight: 500;
+  line-height: 18px;
+  }
+  .proect {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  }
+  .description{
+  line-height: 18px;
+  }
+  .cost {
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--basic-white);
+  }

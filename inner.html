@@ -46,6 +46,19 @@
       </h2>
       <form action="index.html" method="get">
         <fieldset>
+          <label for="slider">стоимость
+          </label>
+          <input type="range" id="slider"min="0" step="1" max="15000">
+          <span>От
+          </span>
+          <output name="sum">0
+          </output>
+          <span>До
+          </span>
+          <output name="sum">15 000
+         </output>
+        </fieldset>
+        <fieldset>
           <legend class="filters">Сетка:
           </legend>
           <input class="grid" type="radio" name="vidi" value="adaptivny" checked>Адаптивная
