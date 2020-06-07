@@ -20,7 +20,7 @@
   font-weight: normal;
   font-style: normal;
   color: var(--basic-black);  
-  background-color: var(--basic-gray);  
+  background-color: var(--basic-white); 
   }
   a {
   text-decoration: none;
@@ -38,23 +38,22 @@
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-  } 
-  .main-navigation {  
-  line-height: 30px;
-  }
-  .basket:hover, .basket:focus,
+} 
+    
+ .basket:hover, .basket:focus,
   .site-navigation a:hover,
   .site-navigation a:focus 
   {
-  color: var(--basic-dark-red);
+  color: var(--basic-rose-red);
   border-bottom: 1px solid #FB565A;
   }
-  .site-navigation, .templates {
+  .site-navigation, .basket, .element  {
   list-style: none;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 30px;
   color: var(--basic-black);
-  }
+    }
   .our-service {
   list-style: none;
   }
@@ -108,3 +107,11 @@
   line-height: 18px;
   color: var(--basic-white);
   }
+  .head {
+    background-color: var(--basic-shade-black);
+    
+  }
+  .advantages  {
+    background-color: var(--basic-shade-black);
+  }
+  

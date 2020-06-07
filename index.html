@@ -6,28 +6,27 @@
   <title>HTML Academy: Нёрдс
   </title>
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="normalize.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <a href="#"><img src="img/nerdslogo.svg" width="160" height="65" alt="Логотип дизайнерской студии Нёрдс">
+  <header class="head">
+    <a class="logo" href="#"><img src="img/nerdslogo.svg" width="160" height="65" alt="Логотип дизайнерской студии Нёрдс">
     </a>
-
     <nav class="main-navigation">
       <ul class="site-navigation">
-        <li><a href="#">студия
+        <li><a class="element" href="#">студия
           </a>
         </li>
-        <li><a href="#">клиенты
+        <li><a class="element" href="#">клиенты
           </a>
         </li>
-        <li><a href="inner.html">магазин
+        <li><a class="element" href="inner.html">магазин
           </a>
         </li>
-        <li><a href="#">контакты
+        <li><a class="element" href="#">контакты
           </a>
         </li>
       </ul>
@@ -35,13 +34,12 @@
       </a>
     </nav>
   </header>
-  <main>
+  <main class="chief">   
     <h1 class="visually-hidden">Студия дизайна Нёрдс
     </h1>
-    <section>
-      <h2 class="visually-hidden">Преимущества
-      </h2>
-      
+    <section class="advantages"> 
+        <h2 class="visually-hidden">Преимущества
+      </h2>      
       <p>Долго, дорого, скрупулезно
       </p>
       <p>Математически выверенный дизайн для вашего сайта или мобильного приложения
@@ -50,7 +48,7 @@
       </a>
     </section>
 
-    <section>
+    <section class="do">
       <h2 class="visually-hidden">Наши услуги
       </h2>
       <ul class="our-service">
@@ -175,7 +173,7 @@
     </article>
   </section>
 
-  <footer>
+  <footer >
     <p class="be-friends">Давайте дружить, это выгодно!
     </p>
     <p class="discount">Скидка 10% для друзей из социальных сетей.
