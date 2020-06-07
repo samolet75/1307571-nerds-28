@@ -11,7 +11,7 @@
   --basic-gray:#888888;
     }
   body {
-  min-width: 1177px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
@@ -54,7 +54,20 @@
   line-height: 30px;
   color: var(--basic-black);
     }
-  .our-service {
+.long {
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+ }
+ .learn{
+   font-weight: 500;
+   line-height: 18px;
+   padding: 17px 54px 15px;
+   background-color: var(--basic-rose-red); 
+   color: var(--basic-white); 
+   text-transform: uppercase;
+  }
+ .our-service {
   list-style: none;
   }
   .product-name {
