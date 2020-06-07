@@ -67,6 +67,15 @@ line-height: 55px;
    color: var(--basic-white); 
    text-transform: uppercase;
   }
+  .learn:hover {
+    color: var(--basic-white);
+    background-color: #D7373B;
+    
+       }  
+  .learn:focus {
+background-color: #E74246;
+color: rgba(255,255,255,0.3);
+  }
  .our-service {
   list-style: none;
   }
@@ -81,11 +90,47 @@ line-height: 55px;
   font-weight: 500;
   line-height: 18px;
   color: var(--basic-white);
+  text-transform: uppercase;
+  padding: 17px 40px 15px 39px;
   }
+  .pink{
+background-color: #FB565A;
+  }
+  .pink:hover {
+    color: var(--basic-white);
+    background-color: #D7373B;    
+       }  
+       .pink:focus {
+        background-color:#E74246;
+       color: rgba(255,255,255,0.1);
+  }
+  .green {
+    background-color: #00CA74;
+      }
+      .green:hover {
+        color: var(--basic-white);
+        background-color: #00AA62;   
+           }  
+           .green:focus {
+            background-color:#00BC6C;
+           color: rgba(255,255,255,0.1);
+           }
+     .yellow {
+        background-color: #EFC849;
+          }
+          .yellow:hover {
+            color: var(--basic-white);
+            background-color: #E5A722;   
+               }  
+               .yellow:focus {
+                background-color:#EAB534;
+               color: rgba(255,255,255,0.1);
+               }
   .be-friends {
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
+
   }
   .discount { 
   line-height: 22px;  
