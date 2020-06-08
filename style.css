@@ -307,6 +307,31 @@ line-height: 18px;
 text-transform: uppercase;
 color: var(--basic-black);
 }
+.marker1 {
+width: 11px;
+height: 10px;
+color: #000000;
+}
+.marker1 {
+	width: 11px;
+	height: 10px;
+	color: #000000;
+	opacity: 0.2;
+}
+.bytype {
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: var(--basic-black);
+opacity: 0.3;
+}
+.byname {
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: var(--basic-black);
+opacity: 0.3;
+}
 
 .proect {
 	font-weight: bold;
