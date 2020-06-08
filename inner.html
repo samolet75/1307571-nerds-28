@@ -26,11 +26,12 @@
         <li><a class="element" href="inner.html">магазин
           </a>
         </li>
-        <li><a href="#">контакты
+        <li><a class="element" href="#">контакты
           </a>
         </li>
       </ul>
-      <a class="basket" href="#">корзина
+      <img class="icon" src="img/carticon.svg" width="15" height="15" alt="иконка">
+      <a class="basket" href="#"> корзина
       </a>
     </nav>
   </header>
@@ -42,7 +43,9 @@
       </h2>
       <form action="index.html" method="get">
         <fieldset>
-          <label for="slider">стоимость
+          <legend class="worth">стоимость:
+         </legend>
+          <label  for="slider">
           </label>
           <input type="range" id="slider" min="0" step="1" max="15000">
           <span>От
@@ -74,7 +77,7 @@
         <button class="show" type="submit">Показать
         </button>
       </form>
-      <h3>сортировать
+      <h3 class="sort">сортировать
       </h3>
       <ul>
         <li>
