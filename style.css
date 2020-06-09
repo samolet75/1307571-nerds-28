@@ -235,35 +235,47 @@ img {
 }
 
 .vk {
-	padding: 33px 28px 33px 27px;
-	background-color: #FB565A;
+	padding: 31px 22px 30px 26px;
+	background-color:#CCCCCC;
 	border-radius: 100px;
-	}
+	margin-right: 11px;	
+}
 	.vkicon{
-position: absolute;
 width: 33px;
 height: 20px;
+color: #FFFFFF;
 	}
+	.vk:hover{
+		background-color: var(--basic-rose-red);
+	}
+	.vkicon a:focus{
+		background-color: #E74246;
+		color: rgba(255, 255, 255, 0.3);
+	}
+
+
 	.fb {
-	padding: 31px 34px 28px 35px;
-	background-color: #FB565A;
+		padding: 31px 34px 28px 35px;
+		background-color:#CCCCCC;
 	border-radius: 100px;
+	margin-right: 9px;
 		}
-		.fbicon{
-			position: absolute;
+		.fbicon{			
 			width: 12px;
 			height: 22px;
+			color: #FFFFFF;
 		}
 	.in {
 		padding: 30px 30px;
-		background-color: #FB565A;
+		background-color:#CCCCCC;
 		border-radius: 100px;
 		}
-		.instaicon{
-			position: absolute;
+		.instaicon{			
 			width: 21px;
 			height: 21px;
+			color: #FFFFFF;
 				}
+
 				.network {
 					display: flex;
 					justify-content: flex-start;
