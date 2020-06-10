@@ -46,9 +46,6 @@ img {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-.logo:focus{
-	color: #A6A6A6;;
-}
 
 .basket:hover,
 .site-navigation a:hover {
@@ -397,5 +394,11 @@ opacity: 0.3;
 	font-weight: 500;
 	line-height: 18px;
 	color: var(--basic-white);
+}
+.zero {
+width: 80px;
+height: 38px;
+text-align: center;
+background-color: var(--basic-shade-black);
 }
 
