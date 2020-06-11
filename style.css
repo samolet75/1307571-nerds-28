@@ -232,9 +232,10 @@ img {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-.character::before {
-content:̶"ррр";
-
+.complexity::before {
+content:"\2015";
+color: var(--basic-rose-red);
+font-weight: bold;
 }
 
 .about {
