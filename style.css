@@ -232,6 +232,10 @@ img {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+.character::before {
+content:̶"ррр";
+
+}
 
 .about {
 	margin-bottom: 138px;
