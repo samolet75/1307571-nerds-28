@@ -7,8 +7,15 @@
 	--basic-white: #FFFFFF;
 	--basic-dark-grey: #666666;
 	--basic-shade-black: #EEEEEE;
-	--basic-dark-green: #00CA74;
 	--basic-gray: #888888;
+	--basic-strawberry-red: #D7373B;
+	--basic-carmine-pink: #E74246;
+	--basic-jade:#00AA62;
+	--basic-Rich-yellow: #E5A722;
+	--basic-Pastel-yellow: #EAB534;
+	--basic-Light-Telegraph: #CCCCCC;
+	--basic-Gainsborough: #DFDFDF;
+	--basic-Abdel-Kerim-Beards: #D5D5D5;
 }
 
 body {
@@ -23,8 +30,22 @@ body {
 	color: var(--basic-black);
 	background-color: var(--basic-white);
 }
+.wrapper{
+	width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+}
 .head {
 	background-color: var(--basic-shade-black);
+	
+}
+.logo {
+	width: 160px;
+  height: 66px;
+	}
+.logo:active{
+	color: var(--basic-black);
+	opacity: 0.3;
 }
 
 a {
@@ -98,12 +119,13 @@ img {
 
 .learn:hover {
 	color: var(--basic-white);
-	background-color: #D7373B;
+	background-color: var(--basic-strawberry-red);
 }
 
 .learn:focus {
-	background-color: #E74246;
-	color: rgba(255, 255, 255, 0.3);
+	background-color: var(--basic-carmine-pink);
+	color: var(--basic-white);
+	opacity: 0.3;
 }
 
 .our-service {
@@ -127,45 +149,48 @@ img {
 }
 
 .pink {
-	background-color: #FB565A;
+	background-color: var(--basic-rose-red);
 }
 
 .pink:hover {
 	color: var(--basic-white);
-	background-color: #D7373B;
+	background-color: var(--basic-strawberry-red);
 }
 
 .pink:focus {
-	background-color: #E74246;
-	color: rgba(255, 255, 255, 0.1);
+	background-color: var(--basic-carmine-pink);
+	color: var(--basic-white);
+	opacity: 0.1;
 }
 
 .green {
-	background-color: #00CA74;
+	background-color: var(--basic-green-blue);
 }
 
 .green:hover {
 	color: var(--basic-white);
-	background-color: #00AA62;
+	background-color: var(--basic-jade);
 }
 
 .green:focus {
-	background-color: #00BC6C;
-	color: rgba(255, 255, 255, 0.1);
+	background-color: var(--basic-jade);
+	color: var(--basic-white);
+	opacity: 0.1;
 }
 
 .yellow {
-	background-color: #EFC849;
+	background-color: var(--basic-light-yellow);
 }
 
 .yellow:hover {
 	color: var(--basic-white);
-	background-color: #E5A722;
+	background-color: var(--basic-Rich-yellow);
 }
 
 .yellow:focus {
-	background-color: #EAB534;
-	color: rgba(255, 255, 255, 0.1);
+	background-color: var(--basic-Pastel-yellow);
+	color: var(--basic-white);
+	opacity: 0.1;
 }
 
 .little {
@@ -238,7 +263,7 @@ img {
 
 .vk {
 	padding: 31px 22px 30px 26px;
-	background-color:#CCCCCC;
+	background-color:var(--basic-Light-Telegraph);
 	border-radius: 100px;
 	margin-right: 11px;
 	
@@ -253,27 +278,27 @@ height: 20px;
 	}
 	.fb {
 		padding: 31px 34px 28px 35px;
-		background-color:#CCCCCC;
+		background-color:var(--basic-Light-Telegraph);
 	border-radius: 100px;
 	margin-right: 9px;
 		}
 		.fbicon{			
 			width: 12px;
 			height: 22px;
-			color: #FFFFFF;
+			color: var(--basic-white);
 		}
 		.fb:hover{
 			background-color: var(--basic-rose-red);
 		}
 	.in {
 		padding: 30px 30px;
-		background-color:#CCCCCC;
+		background-color:var(--basic-Light-Telegraph);
 		border-radius: 100px;
 		}
 		.instaicon{			
 			width: 21px;
 			height: 21px;
-			color: #FFFFFF;
+			color:var(--basic-white);
 				}
 				.in:hover{
 					background-color: var(--basic-rose-red);
@@ -333,10 +358,10 @@ text-transform: uppercase;
 
 }
 .show:hover{
-background-color: #DFDFDF;
+background-color: var(--basic-Gainsborough);
 }
 .show:focus{
-	background-color: #D5D5D5;
+	background-color: var(--basic-Abdel-Kerim-Beards);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 .sort {
@@ -357,12 +382,12 @@ color: var(--basic-black);
 .marker1 {
 width: 11px;
 height: 10px;
-color: #000000;
+color: var(--basic-black);
 }
 .marker1 {
 	width: 11px;
 	height: 10px;
-	color: #000000;
+	color: var(--basic-black);
 	opacity: 0.2;
 }
 .bytype {
