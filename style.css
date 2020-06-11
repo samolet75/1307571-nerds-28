@@ -263,24 +263,31 @@ img {
 
 .vk {
 	padding: 31px 22px 30px 26px;
-	background-color:var(--basic-Light-Telegraph);
+	background-color: var(--basic-black);
 	border-radius: 100px;
-	margin-right: 11px;
-	
+	margin-right: 11px;	 
+	opacity: 0.2;
 }
-	.vkicon{
+	.vkicon {
 width: 33px;
 height: 20px;
+
 	}
+	
 	.vk:hover{
 		background-color: var(--basic-rose-red);
-		
+		opacity: 1.0;
 	}
+	.vkicon:active{
+		opacity: 0.2;
+	}
+
 	.fb {
 		padding: 31px 34px 28px 35px;
-		background-color:var(--basic-Light-Telegraph);
+		background-color: var(--basic-black);
 	border-radius: 100px;
 	margin-right: 9px;
+	opacity: 0.2;
 		}
 		.fbicon{			
 			width: 12px;
@@ -289,11 +296,16 @@ height: 20px;
 		}
 		.fb:hover{
 			background-color: var(--basic-rose-red);
+			opacity: 1.0;
+		}
+		.fbicon :active{
+			opacity: 0.2;
 		}
 	.in {
 		padding: 30px 30px;
-		background-color:var(--basic-Light-Telegraph);
+		background-color: var(--basic-black);
 		border-radius: 100px;
+		opacity: 0.2;
 		}
 		.instaicon{			
 			width: 21px;
@@ -302,6 +314,10 @@ height: 20px;
 				}
 				.in:hover{
 					background-color: var(--basic-rose-red);
+					opacity: 1.0;
+				}
+				.instaicon:active{
+					opacity: 0.2;
 				}
 
 				.network {
@@ -430,4 +446,40 @@ line-height: 22px;
 }
 .from {
 	text-transform: uppercase;
+}
+.academy{
+	opacity: 0.2;
+}
+.academy:hover{
+	opacity: 1.0;
+}
+.academy:active {
+	opacity: 0.1;
+}
+.borodinski{
+	opacity: 0.2;
+}
+.borodinski:hover{
+	opacity: 1.0;
+}
+.borodinski:active {
+	opacity: 0.1;
+}
+.glasses{
+	opacity: 0.2;
+}
+.glasses:hover{
+	opacity: 1.0;
+}
+.glasses:active {
+	opacity: 0.1;
+}
+.mishka{
+	opacity: 0.2;
+}
+.mishka:hover{
+	opacity: 1.0;
+}
+.mishka:active {
+	opacity: 0.1;
 }
