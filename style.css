@@ -29,12 +29,8 @@ body {
 	font-style: normal;
 	color: var(--basic-black);
 	background-color: var(--basic-white);
-}
-.container{
-	width: 1200px;
-    margin: 0 auto;
-    
-}
+}    
+
 .head {
 	background-color: var(--basic-shade-black);
 	
@@ -69,7 +65,11 @@ img {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-
+.container {
+	width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}	
 .basket:hover,
 .site-navigation a:hover {
 	color: var(--basic-rose-red);	
@@ -77,18 +77,43 @@ img {
 .basket:focus,
 .site-navigation a:focus {
 	color: var(--basic-black);
-	opacity: 0.3;
+	opacity: 0.3;	
 }	
 
 .site-navigation,
-.basket,
-.element {
+.basket {
 	list-style: none;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 30px;
 	color: var(--basic-black);
 }
+.element { 
+	list-style: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	color: var(--basic-black);
+}
+ .main-navigation-wrapper {
+	width: 100%;	
+	}  
+
+.main-navigation-wrapper .container {
+display: flex;
+  justify-content: space-between;	
+}
+.atelier{
+margin-right: 44px;	
+}
+.shop{
+	margin-left: 48px;
+	margin-right: 44px;
+}
+
+	
+
+
 .icon {
 	margin-right: 25px;
 }
