@@ -30,18 +30,20 @@ body {
 	color: var(--basic-black);
 	background-color: var(--basic-white);
 }
-.wrapper{
-	width: 1160px;
+.container{
+	width: 1200px;
     margin: 0 auto;
-    padding: 0;
+    
 }
 .head {
 	background-color: var(--basic-shade-black);
 	
 }
 .logo {
-	width: 160px;
+width: 160px;
   height: 66px;
+  
+
 	}
 .logo:active{
 	color: var(--basic-black);
@@ -102,7 +104,9 @@ img {
 	font-size: 55px;
 	line-height: 55px;
 	margin-bottom: 25px;
+	margin-top: 0px;
 }
+
 
 .mathematics {
 	margin-bottom: 38px;
@@ -348,6 +352,7 @@ font-size: 55px;
 line-height: 55px;
 background-color: var(--basic-shade-black);
 text-align: center;
+margin-top: 0px;
 }
 .worth {
 font-weight: bold;
