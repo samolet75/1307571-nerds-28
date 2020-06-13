@@ -68,7 +68,7 @@ img {
 .container {
 	width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0px;
 }	
 .basket:hover,
 .site-navigation a:hover {
@@ -81,38 +81,27 @@ img {
 }	
 
 .site-navigation,
-.basket {
+.basket, .element {
 	list-style: none;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 30px;
 	color: var(--basic-black);
 }
-.element { 
-	list-style: none;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 30px;
-	color: var(--basic-black);
-}
+
+.main-navigation{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
  .main-navigation-wrapper {
 	width: 100%;	
 	}  
 
 .main-navigation-wrapper .container {
-display: flex;
+	display: flex;
   justify-content: space-between;	
 }
-.atelier{
-margin-right: 44px;	
-}
-.shop{
-	margin-left: 48px;
-	margin-right: 44px;
-}
-
-	
-
 
 .icon {
 	margin-right: 25px;
@@ -121,7 +110,7 @@ margin-right: 44px;
 .advantages {
 	background-color: var(--basic-shade-black);
 	margin-bottom: 61px;
-	height: 431px;
+	
 }
 
 .long {
@@ -129,7 +118,7 @@ margin-right: 44px;
 	font-size: 55px;
 	line-height: 55px;
 	margin-bottom: 25px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 
