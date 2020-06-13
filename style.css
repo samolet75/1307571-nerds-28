@@ -89,18 +89,14 @@ img {
 	color: var(--basic-black);
 }
 
-.main-navigation{
+.main-navigation {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	}
- .main-navigation-wrapper {
-	width: 100%;	
-	}  
-
+  flex-direction: column;
+  align-items: center;	
+}
 .main-navigation-wrapper .container {
 	display: flex;
-  justify-content: space-between;	
+  	align-content: space-between;
 }
 
 .icon {
