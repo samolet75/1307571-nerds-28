@@ -38,9 +38,7 @@ body {
 .logo {
 width: 160px;
   height: 66px;
-  
-
-	}
+  	}
 .logo:active{
 	color: var(--basic-black);
 	opacity: 0.3;
@@ -88,20 +86,21 @@ img {
 	line-height: 30px;
 	color: var(--basic-black);
 }
-
 .main-navigation {
 	display: flex;
-  flex-direction: column;
-  align-items: center;	
-}
-.main-navigation-wrapper .container {
-	display: flex;
-  	align-content: space-between;
+	flex-direction: column;
+	align-items: center;
 }
 
-.icon {
-	margin-right: 25px;
+
+
+.main-navigation-wrapper {
+	width: 100%;
 }
+
+
+
+
 
 .advantages {
 	background-color: var(--basic-shade-black);
