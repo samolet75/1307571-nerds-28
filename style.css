@@ -88,24 +88,12 @@ img {
 }
 .main-navigation {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	
 }
-
-
-
-.main-navigation-wrapper {
-	width: 100%;
-}
-
-
-
-
 
 .advantages {
 	background-color: var(--basic-shade-black);
-	margin-bottom: 61px;
-	
+	margin-bottom: 61px;	
 }
 
 .long {
