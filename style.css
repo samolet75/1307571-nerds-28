@@ -67,7 +67,15 @@ img {
 	width: 1200px;
     margin: 0 auto;
     padding: 0px;
+}
+.site-navigation a  {
+	display: block;
+	padding: 25px 20px;
 }	
+.site-navigation{
+display: flex;
+flex-wrap: wrap;
+}
 .basket:hover,
 .site-navigation a:hover {
 	color: var(--basic-rose-red);	
@@ -85,10 +93,6 @@ img {
 	font-size: 16px;
 	line-height: 30px;
 	color: var(--basic-black);
-}
-.main-navigation {
-	display: flex;
-	
 }
 
 .advantages {
