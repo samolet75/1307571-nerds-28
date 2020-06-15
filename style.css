@@ -448,14 +448,13 @@ opacity: 0.3;
 	line-height: 18px;
 	color: var(--basic-white);}
 
-.zero {
-width: 80px;
-height: 38px;
-text-align: center;
-background-color: var(--basic-shade-black);
-border-radius: 3px;
-line-height: 22px;
+.price-controls label {
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: uppercase;
 }
+
+
 .filter-item {
 	margin: 0;
 	padding: 0;
@@ -470,7 +469,7 @@ text-transform: uppercase;
 	  .range-controls {
 		position: relative;	
 		height: 41px;
-		margin-bottom: 22px;
+		margin-bottom: 14px;
 		padding-top: 39px;
 		background-color: var(--basic-shade-black);
 		border-radius: 3px;
