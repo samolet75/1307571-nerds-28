@@ -14,7 +14,7 @@
   <header class="head"> 
     <div class="container">       
      <nav class="main-navigation">          
-    <a href="#"><img class="logo" src="img/nerdslogo.svg" width="160" height="65"
+    <a href="index.html"><img class="logo" src="img/nerdslogo.svg" width="160" height="65"
         alt="Логотип дизайнерской студии Нёрдс">
     </a>         
       <ul class="site-navigation">
@@ -49,19 +49,22 @@
       </h2>
       <form action="index.html" method="get">
         <fieldset class="filter-item">
-           <legend class="worth">стоимость:
+           <legend>стоимость:
           </legend>
           <div class="range-filter">
           <div class="range-controls">
             <div class="scale">
               <div class="bar">
+               </div>
+              <div class="bar">
               </div>
-            <div class="toggle toggle-min"></div>
-            <div class="toggle toggle-max"></div>
-            </div>
+              </div>
+            <div class="toggle toggle-min" tabindex="0"></div>
+            <div class="toggle toggle-max" tabindex="0"></div>
+          </div>
             <div class="price-controls">
               <label class="min-price">
-                от <input class="zero" type="number" name="min-price" value="0">
+                от <input type="number" name="min-price" value="0">
               </label>
               <label class="max-price">
                 до <input class="fifteen" type="number" name="max-price" value="15000">

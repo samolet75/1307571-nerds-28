@@ -34,7 +34,7 @@ body {
 
 .head {
 	background-color: var(--basic-shade-black);
-	
+	margin-bottom: 0px;
 }
 .logo {
 width: 160px;
@@ -72,7 +72,8 @@ img {
 .site-navigation a  {
 	display: block;
 	padding: 25px 20px;
-}	
+}
+
 .site-navigation{
 display: flex;
 flex-wrap: wrap;
@@ -98,7 +99,10 @@ flex-wrap: wrap;
 
 .advantages {
 	background-color: var(--basic-shade-black);
-	margin-bottom: 61px;	
+	margin-bottom: 61px;
+
+	outline: 5px solid;	
+	margin-top: 0px;
 }
 
 .long {
@@ -356,12 +360,6 @@ background-color: var(--basic-shade-black);
 text-align: center;
 margin-top: 0px;
 }
-.worth {
-font-weight: bold;
-font-size: 18px;
-line-height: 30px;
-text-transform: uppercase;
-}
 
 .filters {
 	font-weight: bold;
@@ -448,18 +446,17 @@ opacity: 0.3;
 	line-height: 18px;
 	color: var(--basic-white);}
 
-.price-controls label {
-	font-size: 16px;
-	line-height: 22px;
-	text-transform: uppercase;
-}
-
 
 .filter-item {
 	margin: 0;
 	padding: 0;
 	border: none;
 }
+.range-filter {
+	width: 260px;
+	margin-top: 49px;
+  }
+
 .filter-item legend {
 font-weight: bold;
 font-size: 18px;
@@ -469,7 +466,7 @@ text-transform: uppercase;
 	  .range-controls {
 		position: relative;	
 		height: 41px;
-		margin-bottom: 14px;
+		margin-bottom: 22px;
 		padding-top: 39px;
 		background-color: var(--basic-shade-black);
 		border-radius: 3px;
@@ -505,12 +502,26 @@ text-transform: uppercase;
 		  
 		  .range-controls .toggle-max {
 			left: 160px;
-		  }	  
-	  
-	.range-filter {
-		width: 260px;
-		margin-top: 49px;
-	  }
+		  }	 
+		  
+		  .price-controls {
+			display: flex;
+			justify-content: space-between;
+		  }
+		  .price-controls label {
+			font-size: 16px;
+			line-height: 22px;
+			text-transform: uppercase;
+		}
+		.price-controls input {
+			width: 60px;
+			padding: 10px;
+			margin-left: 11px;
+			text-align: center;
+			border: none;
+			border-radius: 3px;
+			background-color: var(--basic-shade-black);
+			}
 
 .academy{
 	opacity: 0.2;
