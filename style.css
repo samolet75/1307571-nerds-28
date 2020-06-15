@@ -5,9 +5,9 @@
 	--basic-green-blue: #00CA74;
 	--basic-light-yellow: #EFC849;
 	--basic-white: #FFFFFF;
-	--basic-dark-grey: #666666;
+	--basic-white-aluminum: #ABABAB;
 	--basic-shade-black: #EEEEEE;
-	--basic-gray: #888888;
+	--basic-very-pale-blue: #D7DCDF;
 	--basic-strawberry-red: #D7373B;
 	--basic-carmine-pink: #E74246;
 	--basic-jade:#00AA62;
@@ -16,6 +16,7 @@
 	--basic-Light-Telegraph: #CCCCCC;
 	--basic-Gainsborough: #DFDFDF;
 	--basic-Abdel-Kerim-Beards: #D5D5D5;
+	
 }
 
 body {
@@ -445,8 +446,8 @@ opacity: 0.3;
 .cost {
 	font-weight: 500;
 	line-height: 18px;
-	color: var(--basic-white);
-}
+	color: var(--basic-white);}
+
 .zero {
 width: 80px;
 height: 38px;
@@ -455,9 +456,63 @@ background-color: var(--basic-shade-black);
 border-radius: 3px;
 line-height: 22px;
 }
-.from {
-	text-transform: uppercase;
+.filter-item {
+	margin: 0;
+	padding: 0;
+	border: none;
 }
+.filter-item legend {
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+	  }
+	  .range-controls {
+		position: relative;	
+		height: 41px;
+		margin-bottom: 22px;
+		padding-top: 39px;
+		background-color: var(--basic-shade-black);
+		border-radius: 3px;
+		padding-right: 22px;
+		padding-left: 33px;
+	  
+	  }
+	  .range-controls .scale {
+		height: 2px;
+		background: var(--basic-very-pale-blue);
+	  }
+	  .range-controls .bar {
+		width: 138px;
+		height: 2px;
+		background: var(--basic-green-blue);
+	  }
+	  .range-controls .toggle {
+		position: absolute;
+		top: 31px;
+		left: 0;	  
+		width: 4px;
+		height: 4px;
+		padding: 0;
+		border: 8px solid var(--basic-white);
+		background-color: var(--basic-white-aluminum);
+		border-radius: 50%;
+		box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
+		cursor: pointer;
+	  }
+		.range-controls .toggle-min {
+			left: 18px;
+		  }
+		  
+		  .range-controls .toggle-max {
+			left: 160px;
+		  }	  
+	  
+	.range-filter {
+		width: 260px;
+		margin-top: 49px;
+	  }
+
 .academy{
 	opacity: 0.2;
 }
