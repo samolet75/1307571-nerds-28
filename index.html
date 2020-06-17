@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -9,14 +9,15 @@
   <link href="normalize.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
-
-<body>      
-  <header class="head"> 
-    <nav class="main-navigation">  
+   
+  <header class="head">
+     <body class="page-body">   
+    <nav class="main-navigation">
     <div class="container">          
    <a href="#"><img class="logo" src="img/nerdslogo.svg" width="160" height="65"
        alt="Логотип дизайнерской студии Нёрдс">
-   </a>         
+   </a>
+   <div class="main-navigation-wrapper">         
      <ul class="site-navigation">
        <li><a class="element" href="#">студия
          </a>
@@ -29,16 +30,13 @@
        </li>
        <li><a class="element" href="#">контакты
          </a>
-       </li>     
-     <li>
-       <div class="basket">
-      <a class="element " href="#"> корзина
+       </li>       
+       </ul>
+      <a class="basket" href="#"> корзина
      </a>
-     </div>
-     </li> 
-     </ul>    
+   </div>
     </div>
-    </nav>
+    </nav>    
   </header>
 
   
@@ -161,12 +159,10 @@
             <img class="glasses" src="img/pink.svg" width="185" height="52" alt="icon мобильные приложения">
           </a>
         </li>
-        <li>
-          <a href="#">
+        </ul>
+         <a class="basket" href="#">
             <img class="mishka" src="img/mishka.svg" width="173" height="84" alt="штучки ручной работы">
-          </a>
-        </li>
-      </ul>
+          </a>           
       </div>  
     </section>     
   </main>  
