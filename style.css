@@ -151,10 +151,9 @@ img {
 	background-color: var(--basic-strawberry-red);
 }
 
-.learn:focus {
-	background-color: var(--basic-carmine-pink);
-	color: var(--basic-white);
-	opacity: 0.3;
+.learn:active {	
+	color:  rgba(255,255,255,0.3);
+	
 }
 
 .our-service {
@@ -189,10 +188,8 @@ img {
 	background-color: var(--basic-strawberry-red);
 }
 
-.pink:focus {
-	background-color: var(--basic-carmine-pink);
-	color: var(--basic-white);
-	opacity: 0.1;
+.pink:active {
+	color: rgba(255,255,255,0.3); 
 }
 
 .green {
@@ -204,10 +201,8 @@ img {
 	background-color: var(--basic-jade);
 }
 
-.green:focus {
-	background-color: var(--basic-jade);
-	color: var(--basic-white);
-	opacity: 0.1;
+.green:active {
+	color: rgba(255,255,255,0.3); 
 }
 
 .yellow {
@@ -219,10 +214,8 @@ img {
 	background-color: var(--basic-Rich-yellow);
 }
 
-.yellow:focus {
-	background-color: var(--basic-Pastel-yellow);
-	color: var(--basic-white);
-	opacity: 0.1;
+.yellow:active {
+	color: rgba(255,255,255,0.3); 
 }
 
 .little {
@@ -318,7 +311,7 @@ img {
 }
 
 .vkicon:active {
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .fb {
@@ -341,7 +334,7 @@ img {
 }
 
 .fbicon:active {
-	opacity: 0.2;
+	opacity: 0.3; 
 }
 
 .in {
@@ -363,7 +356,7 @@ img {
 }
 
 .instaicon:active {
-	opacity: 0.2;
+	opacity: 0.3; 
 }
 
 .network {
@@ -571,50 +564,25 @@ img {
 	background-color: var(--basic-shade-black);
 }
 
-.academy {
-	opacity: 0.2;
+.customers {
+	opacity: 0.3;
 }
 
-.academy:hover {
-	opacity: 1.0;
+.customers:hover {
+	opacity: 1;
 }
 
 .academy:active {
 	opacity: 0.1;
 }
-
-.borodinski {
-	opacity: 0.2;
-}
-
-.borodinski:hover {
-	opacity: 1.0;
-}
-
-.borodinski:active {
+.barbershop:active {
 	opacity: 0.1;
 }
-
-.glasses {
-	opacity: 0.2;
-}
-
-.glasses:hover {
-	opacity: 1.0;
-}
-
-.glasses:active {
+.pink:active {
 	opacity: 0.1;
 }
-
-.mishka {
-	opacity: 0.2;
-}
-
-.mishka:hover {
-	opacity: 1.0;
-}
-
 .mishka:active {
 	opacity: 0.1;
 }
+
+
