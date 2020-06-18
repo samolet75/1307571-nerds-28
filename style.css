@@ -11,11 +11,11 @@
 	--basic-strawberry-red: #D7373B;
 	--basic-carmine-pink: #E74246;
 	--basic-jade: #00AA62;
-	--basic-Rich-yellow: #E5A722;
-	--basic-Pastel-yellow: #EAB534;
-	--basic-Light-Telegraph: #CCCCCC;
-	--basic-Gainsborough: #DFDFDF;
-	--basic-Abdel-Kerim-Beards: #D5D5D5;
+	--basic-rich-yellow: #E5A722;
+	--basic-pastel-yellow: #EAB534;
+	--basic-light-Telegraph: #CCCCCC;
+	--basic-gainsborough: #DFDFDF;
+	--basic-abdel-Kerim-Beards: #D5D5D5;
 }
 
 body {
@@ -107,12 +107,14 @@ img {
 .site-navigation a:focus {
 	color: var(--basic-black);
 	opacity: 0.3;
+	
 }
 
 .site-navigation,
 .basket,
 .element {
 	list-style: none;
+	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 30px;
@@ -406,7 +408,7 @@ img {
 	background-color: var(--basic-shade-black);
 	border-radius: 3px;
 	margin-top: 50px;
-	margin-left: 140px;
+	border: none;	
 }
 
 .show:hover {
@@ -416,6 +418,8 @@ img {
 .show:focus {
 	background-color: var(--basic-Abdel-Kerim-Beards);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+	border: none;
+	color: rgba(0,0,0,0.3); 
 }
 
 .sort {
@@ -564,11 +568,11 @@ img {
 	background-color: var(--basic-shade-black);
 }
 
-.customers {
+.partners {
 	opacity: 0.3;
 }
 
-.customers:hover {
+.partners:hover {
 	opacity: 1;
 }
 
@@ -578,11 +582,15 @@ img {
 .barbershop:active {
 	opacity: 0.1;
 }
-.pink:active {
+.glasses:active {
 	opacity: 0.1;
 }
 .mishka:active {
 	opacity: 0.1;
 }
-
+.customerlist{
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
 
