@@ -13,9 +13,9 @@
 	--basic-jade: #00AA62;
 	--basic-rich-yellow: #E5A722;
 	--basic-pastel-yellow: #EAB534;
-	--basic-light-Telegraph: #CCCCCC;
+	--basic-light-telegraph: #CCCCCC;
 	--basic-gainsborough: #DFDFDF;
-	--basic-abdel-Kerim-Beards: #D5D5D5;
+	--basic-abdel-kerim-beards: #D5D5D5;
 }
 
 body {
@@ -412,7 +412,7 @@ img {
 }
 
 .show:hover {
-	background-color: var(--basic-Gainsborough);
+	background-color: var(--basic-gainsborough);
 }
 
 .show:focus {
