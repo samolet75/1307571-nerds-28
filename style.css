@@ -16,6 +16,7 @@
 	--basic-light-telegraph: #CCCCCC;
 	--basic-gainsborough: #DFDFDF;
 	--basic-abdel-kerim-beards: #D5D5D5;
+	--basic-gainsborough: #DBDBDB;
 }
 
 body {
@@ -459,6 +460,24 @@ img {
 }
 .templates {
 	list-style: none;
+}
+.pagination{
+	display: flex;
+	list-style: none;
+	font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: var(--basic-black);
+margin-bottom: 60px;
+}
+.pagination-item a{
+	padding: 17px 20px 15px;
+	color: var(--basic-black);
+}
+.pg-active a{
+	border: 3px solid var(--basic-gainsborough);
+	border-radius: 3px;
 }
 
 .project {
