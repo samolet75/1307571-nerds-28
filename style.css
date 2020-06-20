@@ -416,7 +416,7 @@ img {
 }
 
 .show:focus {
-	background-color: var(--basic-Abdel-Kerim-Beards);
+	background-color: var(--basic-abdel-kerim-beards);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 	border: none;
 	color: rgba(0,0,0,0.3); 
@@ -433,43 +433,35 @@ img {
 	list-style: none;
 }
 
-.attheprice {
+.enumu {
+	width: 11px;
+	height: 10px;
+	color: var(--basic-black);
+}
+
+.enumy {
+	width: 11px;
+	height: 10px;
+	transform: rotate(180deg);	
+	opacity: 0.3;
+
+}
+
+.sort-link {
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
 	color: var(--basic-black);
+	opacity: 0.3;
 }
-
-.marker1 {
-	width: 11px;
-	height: 10px;
-	color: var(--basic-black);
-}
-
-.marker1 {
-	width: 11px;
-	height: 10px;
-	color: var(--basic-black);
-	opacity: 0.2;
-}
-
 .bytype {
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	color: var(--basic-black);
-	opacity: 0.3;
+	opacity: 1.0;
+}
+.templates {
+	list-style: none;
 }
 
-.byname {
-	font-size: 14px;
-	line-height: 18px;
-	text-transform: uppercase;
-	color: var(--basic-black);
-	opacity: 0.3;
-}
-
-.proect {
+.project {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 30px;
