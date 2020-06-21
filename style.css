@@ -295,20 +295,25 @@ img {
 	margin-bottom: 36px;
 }
 
-.vk {
-	padding: 31px 22px 30px 26px;
-	background-color: var(--basic-black);
-	border-radius: 100px;
-	margin-right: 11px;
-	opacity: 0.2;
+	.space-between {
+		margin-right: 50px;
+	}
+
+
+	
+}
+.social-link a{
+	padding: px;
 }
 
 .vkicon {
+	background-color: brown;
 	width: 33px;
 	height: 20px;
+	margin: 100px;
 }
 
-.vk:hover {
+.social-link a:hover {
 	background-color: var(--basic-rose-red);
 	opacity: 1.0;
 }
@@ -316,46 +321,19 @@ img {
 .vkicon:active {
 	opacity: 0.3;
 }
-
-.fb {
-	padding: 31px 34px 28px 35px;
-	background-color: var(--basic-black);
-	border-radius: 100px;
-	margin-right: 9px;
-	opacity: 0.2;
-}
-
 .fbicon {
 	width: 12px;
 	height: 22px;
 	color: var(--basic-white);
 }
 
-.fb:hover {
-	background-color: var(--basic-rose-red);
-	opacity: 1.0;
-}
-
 .fbicon:active {
 	opacity: 0.3; 
 }
-
-.in {
-	padding: 30px 30px;
-	background-color: var(--basic-black);
-	border-radius: 100px;
-	opacity: 0.2;
-}
-
 .instaicon {
 	width: 21px;
 	height: 21px;
 	color: var(--basic-white);
-}
-
-.in:hover {
-	background-color: var(--basic-rose-red);
-	opacity: 1.0;
 }
 
 .instaicon:active {
@@ -363,12 +341,11 @@ img {
 }
 
 .network {
-	display: flex;
-	justify-content: flex-start;
+	padding: 40px;
 	margin-top: 69px;
 	list-style: none;
 	margin-bottom: 68px;
-}
+	}
 
 .be-friends {
 	font-weight: bold;
@@ -478,7 +455,7 @@ margin-bottom: 60px;
 	background-color: var(--basic-shade-black);
 	border-radius: 3px;
 }
-.pg-active a:hover a:hover {
+.pg-active a:hover {
 background-color: var(--basic-gainsborough);
 }
 
