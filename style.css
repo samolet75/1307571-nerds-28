@@ -299,26 +299,30 @@ img {
 		margin-right: 50px;
 	}
 
-
+.social-link img {
 	
+	width: 21px;
+	height: 21px;	
+	border-radius: 100%;
+	background-color: var(--basic-black);
+	opacity: 0.2;
+	text-align: center;
+	padding: 30px;	
 }
-.social-link a{
-	padding: px;
-}
+
 
 .vkicon {
-	background-color: brown;
 	width: 33px;
 	height: 20px;
-	margin: 100px;
+	margin-top: 20px;
 }
 
-.social-link a:hover {
+.social-link img:hover {
 	background-color: var(--basic-rose-red);
 	opacity: 1.0;
 }
 
-.vkicon:active {
+.social-link a:active {
 	opacity: 0.3;
 }
 .fbicon {
