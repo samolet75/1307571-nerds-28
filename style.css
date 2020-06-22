@@ -299,52 +299,33 @@ img {
 		margin-right: 50px;
 	}
 
-.social-link img {
+.social-link {
+	display: flex;
+justify-content: center;
+	align-items: center ;
+	width: 81px;
+	height: 81px;	
+	border-radius: 50%;	
+	background-color: rgba(0,0,0,0.1);
 	
-	width: 21px;
-	height: 21px;	
-	border-radius: 100%;
-	background-color: var(--basic-black);
-	opacity: 0.2;
-	text-align: center;
-	padding: 30px;	
+}
+ li:not(:first-child) {
+	margin-left: 9px;
 }
 
 
-.vkicon {
-	width: 33px;
-	height: 20px;
-	margin-top: 20px;
-}
-
-.social-link img:hover {
+.social-link:hover {
 	background-color: var(--basic-rose-red);
-	opacity: 1.0;
+	
 }
 
-.social-link a:active {
-	opacity: 0.3;
-}
-.fbicon {
-	width: 12px;
-	height: 22px;
-	color: var(--basic-white);
-}
-
-.fbicon:active {
-	opacity: 0.3; 
-}
-.instaicon {
-	width: 21px;
-	height: 21px;
-	color: var(--basic-white);
-}
-
-.instaicon:active {
-	opacity: 0.3; 
+.social-link :active {
+	color: rgba(0,0,0,0.1);
+	
 }
 
 .network {
+	display: flex;
 	padding: 40px;
 	margin-top: 69px;
 	list-style: none;
