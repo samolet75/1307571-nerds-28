@@ -98,7 +98,7 @@ background-image: url("img/basket.svg");
 background-repeat: no-repeat;
 background-position: 0 0;
 }
-.user-navigation{
+.user-navigation {
 	display: flex;
 	justify-content: center;	
 }
