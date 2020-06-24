@@ -83,16 +83,27 @@ img {
 }
 
 .basket {
+	display: block;
 	padding-left: 50px;
 	position: relative;
 }
 .basket::before{
 content: "";
+display: inline-block;
+position: absolute;
+left: 25px;
 width: 15px;
 height: 15px;
 background-image: url("img/basket.svg");
 background-repeat: no-repeat;
 background-position: 0 0;
+}
+.user-navigation{
+	display: flex;
+	justify-content: center;	
+}
+.logo {
+order: 2;
 }
 
 .visually-hidden {
@@ -134,8 +145,7 @@ background-position: 0 0;
 	line-height: 30px;
 	color: var(--basic-black);
 }
-.element, 
-.basket{
+.element {
 	display: block;
 	padding: 25px 20px;
 }
