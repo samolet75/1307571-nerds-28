@@ -77,9 +77,22 @@ img {
 	margin: 0;
 	padding: 0;
 }
+.site-navigation{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .basket {
 	padding-left: 50px;
+	position: relative;
+}
+.basket::before{
+content: "";
+width: 15px;
+height: 15px;
+background-image: url("img/basket.svg");
+background-repeat: no-repeat;
+background-position: 0 0;
 }
 
 .visually-hidden {
@@ -121,6 +134,17 @@ img {
 	line-height: 30px;
 	color: var(--basic-black);
 }
+.element, 
+.basket{
+	display: block;
+	padding: 25px 20px;
+}
+
+.site-navigation{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
 .advantages {
 	background-color: var(--basic-shade-black);
