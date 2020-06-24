@@ -17,8 +17,7 @@
 	--basic-gainsborough: #DFDFDF;
 	--basic-abdel-kerim-beards: #D5D5D5;
 	--basic-gainsborough: #DBDBDB;
-	--basic-very-pale-blue-30: 251,86,90,0.3;
-}
+	}
 
 body {
 	min-width: 1200px;
@@ -229,8 +228,10 @@ img {
 	margin-bottom: 32;
 }
 
-.character {
+.complexity {
+		
 	list-style: none;
+	
 }
 
 .trait {
@@ -240,6 +241,7 @@ img {
 
 .complexity {
 	margin-bottom: 40px;
+	
 }
 
 .product-name {
@@ -263,11 +265,14 @@ img {
 }
 
 .complexity::before {
-	content: "\2015";
+	content: "____";
+	position: relative;
+	top: -5px;
+	left: -10px;
 	color: var(--basic-rose-red);
 	font-weight: bold;
-}
-
+	}
+	
 .about {
 	margin-bottom: 138px;
 }
@@ -563,22 +568,14 @@ padding: 17px 77px 15px 78px;
 
 .partners {
 	opacity: 0.3;
+	
 }
 
 .partners:hover {
-	opacity: 1;
+	opacity: 1.0;
 }
 
-.academy:active {
-	opacity: 0.1;
-}
-.barbershop:active {
-	opacity: 0.1;
-}
-.glasses:active {
-	opacity: 0.1;
-}
-.mishka:active {
+.partners:active {
 	opacity: 0.1;
 }
 .customerlist{
