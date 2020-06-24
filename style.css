@@ -17,6 +17,7 @@
 	--basic-gainsborough: #DFDFDF;
 	--basic-abdel-kerim-beards: #D5D5D5;
 	--basic-gainsborough: #DBDBDB;
+	--basic-very-pale-blue-30: 251,86,90,0.3;
 }
 
 body {
@@ -306,7 +307,7 @@ justify-content: center;
 	width: 81px;
 	height: 81px;	
 	border-radius: 50%;	
-	background-color: rgba(0,0,0,0.1);
+	background-color:var(--basic-very-pale-blue)
 	
 }
  li:not(:first-child) {
@@ -314,15 +315,14 @@ justify-content: center;
 }
 
 
-.social-link:hover {
-	background-color: var(--basic-rose-red);
-	
+.social-link:hover
+ {
+	background-color: var(--basic-rose-red);	
 }
-
-.social-link :active {
-	color: rgba(0,0,0,0.1);
-	
+.social-img:active {
+	opacity: 0.3;	
 }
+ 
 
 .network {
 	display: flex;
