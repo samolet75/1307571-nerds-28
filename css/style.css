@@ -208,6 +208,36 @@ header .container {
   margin-bottom: 38px;
 }
 
+.tagline {
+  display: flex;
+  align-items: space-between;  
+  position: relative; 
+}
+
+.expensive {
+  display: flex;  
+  flex-direction: column;
+  align-items: flex-start;
+  
+  width: 400px;
+  height: 273px;  
+  margin-top: 78px;
+  }
+  .expensive::after {
+    content: "";
+    position: absolute;
+    width: 760px;
+    height: 431px;
+    background-image: url("../img/slide1.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--basic-shade-black);
+    right: 30px;
+    bottom: -70px;
+    
+  }
+
+
+
 .learn {
   font-weight: 500;
   line-height: 18px;
