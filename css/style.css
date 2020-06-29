@@ -228,9 +228,8 @@ header .container {
     position: absolute;
     width: 760px;
     height: 431px;
-    background-image: url("../img/slide1.jpg");
+    background: var(--basic-shade-black) url("../img/slide1.svg");
     background-repeat: no-repeat;
-    background-color: var(--basic-shade-black);
     right: 30px;
     bottom: -70px;
     
