@@ -287,6 +287,40 @@ header .container {
   text-transform: uppercase;
   padding: 17px 40px 15px 39px;
 }
+.pride{
+  display: flex;
+}
+.atelier{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  position: relative; 
+  width: 651px;
+  height: 380px;
+}
+
+.love {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  justify-content: flex-end; 
+  width: 358px;
+  height: 430px;
+}
+.love::before {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 208px;
+  background: url("../img/illustration.svg");
+  background-repeat: no-repeat;  
+  bottom: -500px;  
+}
+.level{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
 
 .pink {
   background-color: var(--basic-rose-red);
