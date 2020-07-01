@@ -570,6 +570,7 @@ margin-left: -24px;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
+margin: 0;
 }
 
 .parameters {
@@ -579,7 +580,7 @@ margin-left: -24px;
 .enumu {
   width: 11px;
   height: 10px;
-  color: var(--basic-black);
+  color: var(--basic-black);    
 }
 
 .enumy {
@@ -770,7 +771,7 @@ margin-left: -24px;
 }
 
 .filter-form {
-  width: 260px;
+  width: 260px;  
 }
 
 .filter-options {
@@ -930,4 +931,17 @@ input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+.sorting {
+  display: flex;  
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.parameters {
+  width: 272px;
+  margin: 0;  
+  padding: 0;
+  display: flex; 
+  justify-content: space-between;
 }
