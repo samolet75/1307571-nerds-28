@@ -290,8 +290,8 @@ header .container {
 .pride{
   display: flex;
   justify-content: space-between; 
-  position: relative;
-  outline: 3px solid blue; 
+  position: relative;    
+  margin-bottom: 0;
 }
 .atelier{
   display: flex;
@@ -300,18 +300,19 @@ header .container {
   position: relative; 
   width: 651px;
   height:auto;
-  outline: 3px solid green;
+  margin-top: 0px;
+  
 }
 
 .love {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: flex-end; 
   justify-content: flex-end; 
   width: 358px;
   height:auto;
-  outline: 3px solid red;
-}
+  }
 .love::before {
   content: "";
   position: absolute;
@@ -319,15 +320,32 @@ header .container {
   height: 208px;
   background: url("../img/illustration.svg");
   background-repeat: no-repeat;  
-  bottom: 350px; 
-  outline: 3px solid yellow;
-}
-.level{
+  bottom: 370px; 
+  }
+.level{  
   display: flex;
-  justify-content: wr
-justify-content: space-around;  
-outline: 3px solid black;
-width: 358px;
+  position: relative;
+  width: 358px;
+  height: 111px;   
+   top: -40px;
+   
+}
+.percent{  
+  display: flex;   
+  align-items: flex-start;  
+}
+.percent-description{
+  display: flex;   
+  align-items: flex-end;
+  margin-left:-40px;  
+}
+.percent-description:nth-last-child(1) {
+margin-left: -24px;
+}
+.accuracy{
+  position: absolute;
+  left: 0;
+  bottom: 220px;
 }
 
 .pink {
