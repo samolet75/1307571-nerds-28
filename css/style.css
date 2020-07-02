@@ -681,7 +681,7 @@ margin: 0;
 
 .range-controls {
   position: relative;
-  height: 41px;
+  height: 80px;
   margin-bottom: 22px;
   padding-top: 39px;
   background-color: var(--basic-shade-black);
@@ -934,11 +934,14 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .sorting {
   display: flex;  
-  justify-content: space-between;
+  justify-content: space-between; 
+  position: relative;
   margin: 0;
   padding: 0;
 }
-.parameters {
+.parameters {  
+  position: relative;
+  left: 100px;
   width: 272px;
   margin: 0;  
   padding: 0;
