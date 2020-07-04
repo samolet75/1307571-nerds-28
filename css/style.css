@@ -538,10 +538,22 @@ margin-left: -24px;
   line-height: 30px;
   text-transform: uppercase;
 }
-
-.grid {
-  line-height: 19px;
+.filter-option {
+  position: relative;
+  right: 40px;
+  list-style: none;
+  margin-left: 0;
+  outline: 2px solid red;
 }
+
+
+.grid::before{
+  content: "";
+  width: 100px;
+  height: 25px;
+  border: 2px solid #000000;
+}
+
 
 .show {
   font-weight: 500;

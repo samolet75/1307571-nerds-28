@@ -56,9 +56,7 @@
               <div class="range-controls">
                 <div class="scale">
                   <div class="bar">
-                  </div>
-                  <div class="bar">
-                  </div>
+                 </div>
                 </div>
                 <div class="toggle toggle-min" tabindex="0"></div>
                 <div class="toggle toggle-max" tabindex="0"></div>
@@ -76,19 +74,24 @@
           <fieldset class="filter-options">
             <legend class="filters">
               Сетка:
-            </legend>
-            <label>
-              <input class="grid" type="radio" name="vidi" value="adapted" checked>
-              Адаптивная
+              </legend>
+              <ul>
+                <li class="filter-option filter-radio">                    
+            <input class="visually-hidden grid" id="filter-shave" type="radio" name="vidi" value="adapted" checked>                     
+            <label for="filter-shave">Адаптивная 
             </label>
-            <label>
-              <input class="grid" type="radio" name="vidi" value="fixed">
-              Фиксированная
+              </li>
+              <li class="filter-option filter-radio">            
+              <input class="visually-hidden grid" id="filter-care" type="radio" name="vidi" value="fixed">              
+            <label for="filter-car">Фиксированная              
             </label>
-            <label>
-              <input class="grid" type="radio" name="vidi" value="rubber">
-              Резиновая
+             </li> 
+             <li class="filter-option filter-radio">           
+              <input class="visually-hidden grid" id="filter-accessories" type="radio" name="vidi" value="rubber">              
+            <label for="filter-accessories">Резиновая              
             </label>
+            </li>
+              </ul>
           </fieldset>
 
           <fieldset class="filter-options">
@@ -96,23 +99,23 @@
               Особенности:
             </legend>
             <label>
-              <input class="grid" type="checkbox" checked>
+              <input class="visually-hidden grid" type="checkbox" checked>
               Слайдер
             </label>
             <label>
-              <input class="grid" type="checkbox">
+              <input class="visually-hidden grid" type="checkbox">
               Блок преимуществ
             </label>
             <label>
-              <input class="grid" type="checkbox">
+              <input class="visually-hidden grid" type="checkbox">
               Новости
             </label>
             <label>
-              <input class="grid" type="checkbox" checked>
+              <input class="visually-hidden grid" type="checkbox" checked>
               Галерея
             </label>
             <label>
-              <input class="grid" type="checkbox">
+              <input class="visually-hidden grid" type="checkbox">
               Корзина
             </label>
           </fieldset>
