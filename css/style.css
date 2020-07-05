@@ -1043,14 +1043,17 @@ ul .slider-controls {
   ul .colourless {
   background-color: var(--basic-color-of-wet-asphalt-12);  
   }
+  ul .colourless:hover {
+    background-color: var(--basic-color-of-wet-asphalt); 
+  }
   .slider-controls button { 
     padding: 0;
     position: relative;  
     background-color: var(--basic-white);
-    width: 17px;
-  height: 17px;
-  border: 1px solid var(--basic-white);
+    width: 15px;
+  height: 15px;  
   border-radius: 50%;
+  border: none;
   cursor: pointer;
   left: 5px;
   top: 10px;
