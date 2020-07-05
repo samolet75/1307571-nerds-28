@@ -19,7 +19,8 @@
   --basic-abdel-kerim-beards: #d5d5d5;
   --basic-gainsborough: #dbdbdb;
   --basic-dull-gray: #666666;
-  --basic-black-40: rgba(0,0,0, 0.4);  
+  --basic-black-40: rgba(0,0,0, 0.4);
+  --basic-color-of-wet-asphalt: #4d4d4d;  
 }
 
 *, *::after, *::before {
@@ -1026,3 +1027,23 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex; 
   justify-content: space-between;
 }
+.slider-controls {
+  display: flex;
+  justify-content: flex-start; 
+  position: relative;
+  width: 360px;
+  height: 40px;
+  background-color: var(--basic-color-of-wet-asphalt);
+  }
+
+  .slider-controls button { 
+    padding: 0;
+         
+    width: 17px;
+  height: 17px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  left: 10px;
+  top: 10px;
+  }
