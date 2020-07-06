@@ -735,9 +735,12 @@ margin: 0;
 }
 
 .cost {
+  position: relative;
+  top: 20px;
   font-weight: 500;
   line-height: 18px;
   color: var(--basic-white);
+  
 }
 
 .filter-item {
@@ -1063,5 +1066,29 @@ ul .slider-controls {
     .sliders {
       margin-top: 48px;
     }
-    
+    .layouts{
+      position: relative;
+    }
+    .popup-window {
+      position: absolute;
+      top: 882px;
+    width: 358px;
+  height: 231px;
+  background-color: var(--basic-shade-black);
+  text-align: center;
+  
+  outline: 4px solid red;
+    }
+    .descriptions {
+      position: relative;
+      bottom: 32px;
+      left: 50px;
+      width: 255px;
+  height: 37px;  
+  margin-top: 50px;
+    }
+    a:hover .popup-window {
+      background-color: var(--basic-shade-black);
+      z-index: 9999;
+    }
     
