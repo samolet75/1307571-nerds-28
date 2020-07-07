@@ -1067,16 +1067,16 @@ ul .slider-controls {
       margin-top: 48px;
     }
     .layouts{
-      position: relative;
+      position: relative;      
     }
-    .popup-window {
-      position: absolute;
+    .popup-window {       
+          position: absolute;
+          opacity: 0;                
       top: 882px;
     width: 358px;
   height: 231px;
   background-color: var(--basic-shade-black);
-  text-align: center;
-  
+  text-align: center;  
   outline: 4px solid red;
     }
     .descriptions {
@@ -1085,10 +1085,9 @@ ul .slider-controls {
       left: 50px;
       width: 255px;
   height: 37px;  
-  margin-top: 50px;
+  margin-top: 50px;  
     }
-    a:hover .popup-window {
-      background-color: var(--basic-shade-black);
-      z-index: 9999;
+     .popup-window:hover {
+      opacity: 1; 
     }
     
