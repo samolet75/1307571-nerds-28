@@ -1101,7 +1101,11 @@ box-shadow: 0 30px 50px var(--basic-black-70);
 .login-form {  
   width: 760px;
   height: 371px;
+  
 }
+  .login-form input:invalid {
+    border: 2px solid var(--basic-carmine-pink) 
+  }
 form {
   display: block;
   margin-top: 0em;
@@ -1174,6 +1178,11 @@ border-radius: 3px;
   background-repeat: no-repeat;
   top: 10px;
   left: 2px;
-  opacity: 0.3; 
+opacity: 0.3;
 }
-.modal-close::after
+.modal-close:hover::after{
+  opacity: 1;
+}
+.modal-close:focus::after{
+  opacity: 0.1;
+}
