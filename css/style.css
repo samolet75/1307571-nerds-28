@@ -732,6 +732,7 @@ margin: 0;
   font-size: 18px;
   line-height: 30px;
   color: var(--basic-black);
+  text-transform: uppercase;
 }
 
 .description {
@@ -885,10 +886,6 @@ margin: 0;
 
 .templates .description {
   color: var(--basic-dull-gray);
-}
-
-.project {
-  text-transform: uppercase;
 }
 
 footer .container {
@@ -1115,7 +1112,7 @@ button, input, textarea {
   font-size: 100%;
 
 }
-.login-form .window{
+.login-form .windows{
   display: flex;  
   justify-content: space-between;
   width: 760px;
@@ -1185,4 +1182,8 @@ opacity: 0.3;
 }
 .modal-close:focus::after{
   opacity: 0.1;
+}
+
+.modal-show {
+  display: block;
 }
