@@ -1,4 +1,4 @@
-var Buttonmail = document.querySelector(".button-mail");
+var loginLink = document.querySelector(".button-mail");
 var loginPopup = document.querySelector(".modal-login");
 var loginClose = loginPopup.querySelector(".modal-close");
 var loginForm = loginPopup.querySelector(".login-form");
@@ -14,26 +14,20 @@ try {
   isStorageSupport = false;
 }
 
-Buttonmail.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    loginPopup.classList.add("modal-show");
-
-    if (storage) {
-    loginLogin.value = storage;
-    loginPassword.focus();
-  } else {
-    loginLogin.focus();
-  }
+loginLink.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  loginPopup.classList.add("modal-show");
+  loginLogin.focus();
 });
 
-  loginClose.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    loginPopup.classList.remove("modal-show");
-  });
+loginClose.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  loginPopup.classList.remove("modal-show");
+});
 
-  loginForm.addEventListener("submit", function (evt) {
-    if (!loginLogin.value || !loginPassword.value) {
-    evt.preventDefault();
+loginForm.addEventListener("submit", function (evt) {
+  if (!loginLogin.value || !loginPassword.value) {
+  evt.preventDefault();
 } else {
   localStorage.setItem("login", loginLogin.value);
 }
@@ -47,3 +41,4 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
+

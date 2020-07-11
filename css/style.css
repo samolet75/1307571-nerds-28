@@ -1101,7 +1101,8 @@ box-shadow: 0 30px 50px var(--basic-black-70);
   
 }
   .login-form input:invalid {
-    border: 2px solid var(--basic-carmine-pink) 
+    border: 2px solid var(--basic-carmine-pink);
+    color: var(--basic-carmine-pink);
   }
 form {
   display: block;
@@ -1162,10 +1163,11 @@ border-radius: 3px;
   width: 22px;
   height: 22px;
   font-size: 0;
-  border: 0;
   cursor: pointer;
-}
+  border: 0;
+  }
 
+.modal-close::before,
 .modal-close::after  {
   content: "";
   position: absolute;
@@ -1177,9 +1179,12 @@ border-radius: 3px;
   left: 2px;
 opacity: 0.3;
 }
+
+.modal-clos:hover::before,
 .modal-close:hover::after{
   opacity: 1;
 }
+.modal-clos:focus::before,
 .modal-close:focus::after{
   opacity: 0.1;
 }
@@ -1187,3 +1192,4 @@ opacity: 0.3;
 .modal-show {
   display: block;
 }
+
