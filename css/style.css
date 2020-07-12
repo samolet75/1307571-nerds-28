@@ -349,7 +349,7 @@ margin-left: -24px;
 .accuracy{
   position: absolute;
   left: 0;
-  bottom: 220px;
+  bottom: 215px;
 }
 
 .pink {
@@ -441,16 +441,18 @@ margin-left: -24px;
 }
 
 .about {
-  margin-bottom: 138px;
+  margin-bottom: 0;
 }
 
 .accuracy {
   font-weight: bold;
-  margin-bottom: 31px;
+  margin-bottom: 0;
 }
 
 .customers {
-  margin-bottom: 131px;
+  margin-bottom: 0;
+  margin-top: 0;
+  
 }
 
 .customerlist {
@@ -476,7 +478,7 @@ margin-left: -24px;
   display: flex;
   align-items: center;
   padding: 70px 0px;
-}
+  }
 
 .social-link {
   display: flex;
@@ -1089,8 +1091,7 @@ margin-top: 30px;
 
 .modal-login {
      display: none;
-   }
-   
+   }  
 
 .modal-show {
   display: block;
@@ -1212,22 +1213,6 @@ opacity: 0.3;
 .modal-close:focus::after{
   opacity: 0.1;
 }
-
-
-
-
-.modal-show {
-  position: relative;
- width: 960px;
-height: 590px;
-margin-top: 30px;
-  margin-left: 282px;  
-  z-index: 7;
-  padding: 65px 100px;
-  display: block;
-  animation: bounce 0.6s;
-  }
-
 .modal-error {
   animation: shake 0.6s;
 }
