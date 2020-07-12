@@ -159,7 +159,7 @@
                 <span class="visually-hidden">По возрастанию</span>
                 <img src=img/icondown.svg width="11" height="10" alt="По возрастанию">
               </a>
-              <a href="#">
+              <a class="enumu"href="#">
                 <span class="visually-hidden">По убыванию</span>
                 <img class="enumy" src=img/icondown.svg width="11" height="10" alt="По убыванию">
               </a>
@@ -353,28 +353,32 @@
     </div>
   </footer>
 
-  <section class="visually-hidden">
-    <h2 class="visually-hidden">Обратная связь
+  <section class="modal modal-login">
+    <h2>Напишите нам
     </h2>
-    <form action="index.html" method="post">
-      <span>Напишите нам
-      </span>
-      <label for="name">
-        Ваше имя:
-        <input type="text" name="name" id="name" placeholder="Имя Фамилия">
-      </label>
-      <label for="email">
-        Ваш e-mail:
-        <input type="email" name="email" id="email" placeholder="email@example.com">
-      </label>
-      <label for="lette">
-        Текст письма:<textarea rows="10" cols="100" id="lette" placeholder="В свободной форме">
-      </textarea>
-      </label>
-      <button type="submit">Отправить
-      </button>
-    </form>
-  </section>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      
+      <div class="window-pap">
+				<p>
+					<label for="user-name"><b>Ваше имя:</b></label>
+					<input class="login-icon-name" type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста" required="" autofocus="">			
+				</p>
+				<p>
+					<label for="user-email"><b>Ваш e-mail</b></label>
+					<input class="login-icon-mail" type="email" name="user-email" id="user-email" placeholder="Для отправки ответа" required="">			
+				</p>
+			</div>
+			<p>
+				<label for="contact-text"><b>Текст письма:</b></label>
+				<textarea name="text" id="contact-text" rows="5" cols="250" placeholder="В свободной форме" required=""></textarea>
+			</p>
+      <button class="button" type="submit">Отправить
+     </button>
+      <a class="modal-close" href="#">Закрыть
+         </a> 
+      </form>      		
+  </section >  
+  <script src="js/js/script.js"> 
+  </script>
 </body>
-
 </html>
