@@ -201,7 +201,9 @@ header .container {
 }
 
 .long {
-  font-weight: 500;
+  position: relative;
+  bottom: 15px;
+    font-weight: 500;
   font-size: 55px;
   line-height: 55px;
   margin-bottom: 25px;
@@ -209,6 +211,8 @@ header .container {
 }
 
 .mathematics {
+  position: relative;
+  bottom: 30px;
   margin-bottom: 38px;
 }
 
@@ -219,14 +223,14 @@ header .container {
 }
 
 .expensive {
-  display: flex;  
+  display: flex; 
   flex-direction: column;
-  align-items: flex-start;
-  
+  align-items: flex-start;  
   width: 400px;
   height: 273px;  
   margin-top: 78px;
   }
+
   .expensive::after {
     content: "";
     position: absolute;
@@ -234,9 +238,8 @@ header .container {
     height: 431px;
     background: var(--basic-shade-black) url("../img/slide1.svg");
     background-repeat: no-repeat;
-    right: 30px;
-    bottom: -70px;
-    
+    right: 22px;
+    bottom: -65px;    
   }
 
 
@@ -1094,7 +1097,7 @@ box-shadow: 0 30px 50px var(--basic-black-70);
 
 .modal-show {
   display: block;
-    position: absolute;
+    position: fixed;
     top: calc(50% - 280px);
     left: calc(50% - 480px);
     width: 960px;

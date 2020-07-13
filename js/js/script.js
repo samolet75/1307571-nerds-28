@@ -53,4 +53,6 @@ var loginLink = document.querySelector(".button-mail");
         loginPopup.classList.remove("modal-error");
       }
     }
-  });    
+  });  
+    
+  var link = document.querySelector(".login-link");
