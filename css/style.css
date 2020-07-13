@@ -169,6 +169,9 @@ header .container {
   color: var(--basic-black);
 }
 .element {
+  position: relative;
+  left: -1px;
+  bottom: -1px;
   display: block;
   padding: 25px 20px;
 }
@@ -245,6 +248,8 @@ header .container {
 
 
 .learn {
+  position: absolute;
+  top: 285px;
   font-weight: 500;
   line-height: 18px;
   padding: 17px 54px 15px;
@@ -305,9 +310,11 @@ header .container {
   flex-direction: column;
   align-items: flex-start; 
   position: relative; 
+  bottom: 45px;
   width: 651px;
   height:auto;
-  margin-top: 0px;
+  
+  
   
 }
 
@@ -319,6 +326,12 @@ header .container {
   justify-content: flex-end; 
   width: 358px;
   height:auto;
+  top: -42px;
+  left: 15px;
+  font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
   }
 .love::before {
   content: "";
@@ -334,25 +347,37 @@ header .container {
   position: relative;
   width: 358px;
   height: 111px;   
-   top: -40px;
+   top: -60px;
+   left: -15px;
    
+ 
 }
 .percent{  
   display: flex;   
-  align-items: flex-start;  
+  align-items: flex-start; 
+  font-size: 45px;
+line-height: 64px;
+font-weight: bold; 
+margin-right: 40px;
 }
 .percent-description{
   display: flex;   
-  align-items: flex-end;
-  margin-left:-40px;  
+  align-items: flex-end; 
+  position: relative; 
+  left: -110px;
+  margin-left: -40px;
+  font-size: 16px;
+line-height: 18px;
+
 }
 .percent-description:nth-last-child(1) {
-margin-left: -24px;
+margin-left: -78px;
 }
 .accuracy{
   position: absolute;
   left: 0;
   bottom: 215px;
+  text-transform: uppercase;
 }
 
 .pink {
@@ -398,22 +423,27 @@ margin-left: -24px;
   font-weight: 500;
   font-size: 45px;
   line-height: 45px;
-  margin-bottom: 32;
+  margin-bottom: 18px;
 }
 
 .complexity {
   list-style: none;
-  margin-bottom: 40px;
-  margin-left: 10px;
+  margin-bottom: 23px;
+  margin-left: 8px;
 }
 
 .trait {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   margin-right: 7px;
 }
 
 .character {
-  margin-left: -40px;
+  margin-left: -38px;
+  position: relative;
+  top: -30px;  
+}
+.character li:nth-last-child(1) {
+  margin-top: px;
 }
 
 .will {
@@ -426,8 +456,8 @@ margin-left: -24px;
 }
 
 .perform {
-  margin-top: 40px;
-  margin-bottom: 23px;
+  margin-top: 25px;
+  margin-bottom: 38px;
   text-transform: uppercase;
   font-weight: bold;
 }
