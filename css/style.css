@@ -343,7 +343,8 @@ line-height: 24px;
   height: 208px;
   background: url("../img/illustration.svg");
   background-repeat: no-repeat;  
-  bottom: 3100px; 
+  bottom: 310px;
+
   }
 .level{  
   display: flex;
@@ -967,6 +968,7 @@ margin-top: 58px;
   height: 416px;
   margin: 0;
   bottom: -60px;
+  
   }
   
 

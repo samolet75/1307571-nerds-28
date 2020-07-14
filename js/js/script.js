@@ -55,4 +55,4 @@ var loginLink = document.querySelector(".button-mail");
     }
   });  
     
-  var link = document.querySelector(".login-link");
+  
