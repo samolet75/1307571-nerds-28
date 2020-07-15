@@ -236,7 +236,7 @@ header .container {
   height: 273px;  
   margin-top: 78px;
   }
-
+  
   .expensive::after {
     content: "";
     position: absolute;
@@ -248,7 +248,29 @@ header .container {
     bottom: -65px;    
   }
 
-
+  .slider-controls {    
+      position: absolute;
+      bottom: 63px;
+     right: 500px;
+     bottom: -30px;
+      z-index: 20;
+      display: flex;
+  width: 67px;  
+  justify-content: space-between;
+    }
+    .slider-controls .current {
+      background-color: var(--basic-white-aluminum);
+    }
+ 
+  .slider-controls button {
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    border: 2px solid var(--basic-white-aluminum);
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
 .learn {
   position: absolute;
