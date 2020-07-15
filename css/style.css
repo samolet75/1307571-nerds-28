@@ -295,6 +295,7 @@ header .container {
   font-weight: 500;
 }
 
+
 .order {
   font-weight: 500;
   line-height: 18px;
@@ -761,11 +762,11 @@ margin: 0;
   margin-bottom: 60px;
   margin-top: 54px;
 }
-.pg-active a:hover {
+.pagination-item a:hover {
   background-color: var(--basic-gainsborough);
 }
 
-.pg-active a:focus {
+.pagination-item a:focus {
   background-color: var(--basic-abdel-kerim-beards);
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.3);
   color: rgba(0, 0, 0, 0.3);
@@ -950,8 +951,7 @@ footer .container {
 
 .footer-address {
   position: absolute;
-  top: 92px;
-  z-index: 3;
+    z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -959,7 +959,9 @@ footer .container {
   width: 319px;
   min-height: 308px;
   padding: 48px 50px;
-margin-top: 58px;
+bottom: -1460px;
+left: 120px;
+
   background-color: var(--basic-white);
 }
 
