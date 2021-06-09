@@ -203,13 +203,17 @@ header .container {
   height: 545px;
   background-color: var(--basic-shade-black);
   margin-bottom: 80px;
-  background-image: url(".../img/slidemobile.jpg");
 }
 
 .advantages {
 width: 1157px;
 height: 431px;
 margin: 9px 143px 80px 140px;
+background-image: url("../img/slide1.svg");
+background-repeat: no-repeat;
+background-size: 760px 431px;
+background-color: var(--basic-shade-black);
+background-position: right;
 }
 
 .long {
