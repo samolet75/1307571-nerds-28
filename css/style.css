@@ -243,7 +243,8 @@ header .container {
 
 .slider-controls {
   position: absolute;
-  right: 100px;
+  left: 610px;
+  top: 310px;
 }
 
 
