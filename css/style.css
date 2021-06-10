@@ -206,15 +206,46 @@ header .container {
 }
 
 .advantages {
-width: 1157px;
-height: 431px;
-margin: 9px 143px 80px 140px;
-background-image: url("../img/slide1.svg");
-background-repeat: no-repeat;
-background-size: 760px 431px;
-background-color: var(--basic-shade-black);
-background-position: right;
+  position: relative;
+ width: 1157px;
+ height: 431px;
+ margin: 9px 143px 80px 140px;
+ background-image: url("../img/slide1.svg");
+ background-repeat: no-repeat;
+ background-size: 760px 431px;
+ background-color: var(--basic-shade-black);
+ background-position: right;
 }
+
+.slider {
+  position: relative;
+  text-align: center;
+  color: var(--basic-black);
+}
+
+.sliders-list {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.slider-controls button {
+  padding: 0;
+  width: 17px;
+  height: 17px;
+  background-color: transparent;
+  border: 2px solid var(--basic-white-aluminum);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-controls {
+  position: absolute;
+  right: 100px;
+}
+
 
 .long {
   width: 538px;
@@ -226,36 +257,6 @@ background-position: right;
   margin-bottom: 25px;
   margin-top: 0;
 }
-
-.mathematics {
-  position: relative;
-  bottom: 30px;
-  margin-bottom: 38px;}
-
-
-
-  .slider {
-    position: relative;
-    text-align: center;
-    color: var(--basic-black);
- }
-
- .sliders-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-
-  .slider-controls button {
-    padding: 0;
-    width: 17px;
-    height: 17px;
-    background-color: transparent;
-    border: 2px solid var(--basic-white-aluminum);
-    border-radius: 50%;
-    cursor: pointer;
-  }
 
 .learn {
   position: absolute;
