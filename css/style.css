@@ -181,7 +181,6 @@ header .container {
 
 .element-selected {
   position: relative;
-
 }
 
 .element-selected::after {
@@ -232,10 +231,9 @@ header .container {
   width: 760px;
   height: 431px;
   background-image: url("../img/slide1.svg");
-  bottom: 120px;
+  bottom: 470px;
   right: 50px;
 }
-
 
 .slider-controls button {
   padding: 0;
@@ -268,7 +266,33 @@ header .container {
 .applications {
   width: 400px;
   height: 49px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
 }
+
+.formulas {
+  width: 416px;
+  height: 48px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.begins{
+  width: 416px;
+  height: 49px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .learn {
   position: absolute;
