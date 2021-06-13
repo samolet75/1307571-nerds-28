@@ -206,15 +206,10 @@ header .container {
 }
 
 .advantages {
-  position: relative;
+ position: relative;
  width: 1157px;
  height: 431px;
  margin: 9px 143px 80px 140px;
- background-image: url("../img/slide1.svg");
- background-repeat: no-repeat;
- background-size: 760px 431px;
- background-color: var(--basic-shade-black);
- background-position: right;
 }
 
 .slider {
@@ -224,10 +219,21 @@ header .container {
 }
 
 .sliders-list {
+  position: relative;
   text-align: left;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.first::after {
+  content: "";
+  position: absolute;
+  width: 760px;
+  height: 431px;
+  background-image: url("../img/slide1.svg");
+  bottom: 120px;
+  right: 50px;
 }
 
 
@@ -256,7 +262,12 @@ header .container {
   font-size: 55px;
   line-height: 55px;
   margin-bottom: 25px;
-  margin-top: 0;
+  margin-top: 78px;
+}
+
+.applications {
+  width: 400px;
+  height: 49px;
 }
 
 .learn {
