@@ -215,6 +215,7 @@ header .container {
   position: relative;
   text-align: center;
   color: var(--basic-black);
+  
 }
 
 .sliders-list {
@@ -237,18 +238,22 @@ header .container {
 
 .slider-controls button {
   padding: 0;
-  width: 17px;
-  height: 17px;
+  margin: 0;
+  width: 18px;
+  height: 18px;
   background-color: transparent;
-  border: 2px solid var(--basic-white-aluminum);
+  border: 2px solid var(--basic-white);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .slider-controls {
   position: absolute;
+  width: 88px;
   left: 610px;
   top: 310px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
