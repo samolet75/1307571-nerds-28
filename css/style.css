@@ -215,7 +215,7 @@ header .container {
   position: relative;
   text-align: center;
   color: var(--basic-black);
-  
+
 }
 
 .sliders-list {
@@ -226,13 +226,13 @@ header .container {
   list-style: none;
 }
 
-.first::after {
+.slider-item:nth-child(1)::after {
   content: "";
   position: absolute;
   width: 760px;
   height: 431px;
   background-image: url("../img/slide1.svg");
-  bottom: 470px;
+  bottom: 560px;
   right: 50px;
 }
 
@@ -254,6 +254,10 @@ header .container {
   top: 310px;
   display: flex;
   justify-content: space-between;
+}
+
+.slide {
+  display: none;
 }
 
 
