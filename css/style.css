@@ -256,11 +256,6 @@ header .container {
   justify-content: space-between;
 }
 
-.slide {
-  display: none;
-}
-
-
 .long {
   width: 538px;
   height: 111px;
