@@ -43,6 +43,8 @@ body {
 }
 
 .head {
+  width: 1440px;
+  height: 114px;
   background-color: var(--basic-shade-black);
   margin-bottom: 0px;
 }
@@ -81,7 +83,8 @@ img {
 
 header .container {
   display: flex;
-  padding-top: 49px;
+  padding: 0;
+  margin-bottom: 0;
   align-items: baseline;
 
 }
@@ -176,8 +179,28 @@ header .container {
   left: -1px;
   bottom: -1px;
   display: block;
-  padding: 25px 20px;
 }
+
+.element:nth-child(1) {
+  width: 63px;
+  height: 30px;
+}
+
+.element:nth-child(3) {
+  width: 76px;
+  height: 30px;
+}
+
+.element:nth-child(4) {
+  width: 86px;
+  height: 30px;
+}
+
+.element:nth-child(1) {
+  width: 63px;
+  height: 30px;
+}
+
 
 .element-selected {
   position: relative;
@@ -204,18 +227,25 @@ header .container {
   margin-bottom: 80px;
 }
 
-.advantages {
- position: relative;
+.site-wrapper {
  width: 1157px;
  height: 431px;
- margin: 9px 143px 80px 140px;
+ margin: 9px 237px 80px 46px;
+ background-image: url("../img/slide1.svg");
+ background-repeat: no-repeat;
+ background-size: 760px 431px;
+ background-position: right -50px;
 }
 
 .slider {
   position: relative;
   text-align: center;
   color: var(--basic-black);
+}
 
+.slider-item {
+  width: 1157px;
+  height: 431px;
 }
 
 .sliders-list {
@@ -226,15 +256,6 @@ header .container {
   list-style: none;
 }
 
-.slider-item:nth-child(1)::after {
-  content: "";
-  position: absolute;
-  width: 760px;
-  height: 431px;
-  background-image: url("../img/slide1.svg");
-  bottom: 560px;
-  right: 50px;
-}
 
 .slider-controls button {
   padding: 0;
@@ -263,8 +284,9 @@ header .container {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
+  margin: 0;
   margin-bottom: 25px;
-  margin-top: 78px;
+
 }
 
 .applications {
