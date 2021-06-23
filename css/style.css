@@ -237,6 +237,22 @@ header .container {
  background-position: right -50px;
 }
 
+.site-wrapper-1 {
+  background-color: #849d8f;
+  background-image: url("img/slider-item-1.png");
+}
+
+.site-wrapper-2 {
+  background-color: #8996a6;
+  background-image: url("img/slider-item-2.png");
+}
+
+.site-wrapper-3 {
+  background-color: #9d8b84;
+  background-image: url("img/slider-item-3.png");
+}
+
+
 .slider {
   position: relative;
   text-align: center;
@@ -275,6 +291,18 @@ header .container {
   top: 310px;
   display: flex;
   justify-content: space-between;
+}
+
+.slide {
+  display: none;
+}
+
+.slide-current {
+  display: block;
+}
+
+.slider-controls .current {
+  background-color: #ffffff;
 }
 
 .long {
